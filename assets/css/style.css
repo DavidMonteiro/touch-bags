@@ -164,3 +164,33 @@ footer>a:hover {
     color: white;
     cursor: pointer;
 }
+
+
+/* bag product section */
+.order-title {
+    font-size: large;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-column {
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-column img {
+    width: 100%;
+}

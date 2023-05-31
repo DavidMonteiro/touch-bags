@@ -27,45 +27,126 @@
     </nav>
 
     <!--Bags catalogue section -->
-    <div>
-        <div>
-            <img src="assets/images/arno-senoner-pearl-bag-unsplash.jpg" alt="Bag of pearl colour" width="250" />
-            <h3>Pearl Bag</h3>
-            <p>€30.00</p>
+    <section class="container">
+        <div class="product-row">
+            <h2>The current available products</h2>
         </div>
-        <div>
-            <img src="assets/images/arno-senoner-orange-bag-unsplash.jpg" alt="Bag of orange colour" width="250" />
-            <h3>Sunny Bag</h3>
-            <p>€20.00</p>
+        <div class="product-row">
+            <div class="product-column">
+                <img src="assets/images/arno-senoner-pearl-bag-unsplash.jpg" alt="Bag of pearl colour" width="250" />
+                <h3>Pearl Bag</h3>
+                <p>€30.00</p>
+            </div>
+            <div class="product-column">
+                <img src="assets/images/arno-senoner-orange-bag-unsplash.jpg" alt="Bag of orange colour" width="250" />
+                <h3>Sunny Bag</h3>
+                <p>€20.00</p>
+            </div>
+            <div class="product-column">
+                <img src="assets/images/arno-senoner-strong-plant-bag-unsplash.jpg"
+                    alt="Bag with strong floral patterns" width="250" />
+                <h3>Strong Floral Bag</h3>
+                <p>€30.00</p>
+            </div>
         </div>
-        <div>
-            <img src="assets/images/arno-senoner-strong-plant-bag-unsplash.jpg" alt="Bag with strong floral patterns"
-                width="250" />
-            <h3>Strong Floral Bag</h3>
-            <p>€30.00</p>
+        <div class="product-row">
+            <div class="product-column">
+                <img src="assets/images/arno-senoner-light-floral-bag-unsplash.jpg" alt="Bag with light floral patterns"
+                    width="250" />
+                <h3>Light Floral Bag</h3>
+                <p>€45.00</p>
+            </div>
+            <div class="product-column">
+                <img src="assets/images/arno-senoner-salmon-bag-unsplash.jpg" alt="Bag of salmon colour" width="250" />
+                <h3>Salmon Pink Bag</h3>
+                <p>€45.00</p>
+            </div>
+            <div class="product-column">
+                <img src="assets/images/arno-senoner-yellow-bag-unsplash.jpg" alt="Bag of yellow colour" width="250" />
+                <h3>Yellow Sunny Bag</h3>
+                <p>€40.00</p>
+            </div>
         </div>
-        <div>
+        <div class="product-column">
             <img src="assets/images/arno-senoner-red-bag-unsplash.jpg" alt="Bag of red colour" width="250" />
             <h3>Velvet Bag</h3>
             <p>€40.00</p>
         </div>
-        <div>
-            <img src="assets/images/arno-senoner-light-floral-bag-unsplash.jpg" alt="Bag with light floral patterns"
-                width="250" />
-            <h3>Light Floral Bag</h3>
-            <p>€45.00</p>
+    </section>
+
+    <!-- Order Form-->
+    <section>
+        <h2 class="order-title">Place your Order Below</h2>
+        <div class="form-container">
+            <form action="">
+                <fieldset>
+                    <legend>Your details</legend>
+                    <div class="form-group">
+                        <label for="firstname">First Name</label>
+                        <input type="text" name="firstname" id="firstname">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="lastname" id="lastname">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" name="phone" id="phone">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="form-group">
+                        <div>
+                            <input type="checkbox" id="pear-bag" name="pear">
+                            <label for="pear-bag">Pearl Handbag</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="sunny-bag" name="sunny">
+                            <label for="sunny-bag">Sunny Handbag</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="strong-floral-bag" name="strong-floral">
+                            <label for="strong-floral-bag">Strong Floral Handbag</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="velvet-bag-checkbox" name="velvet">
+                            <label for="velvet-bag-checkbox">velvet Handbag</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="light-floral-bag-checkbox" name="light-floral">
+                            <label for="light-floral-bag-checkbox">Light Floral Handbag</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="salmon-pink-bag-checkbox" name="salmon-pink">
+                            <label for="salmon-pink-bag-checkbox">Salmon Pink Handbag</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="yellow-sunny-bag-checkbox" name="yellow-sunny">
+                            <label for="yellow-sunny-bag-checkbox">Yellow Sunny Handbag</label>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="form-group">
+                        <div>
+                            <label for="tailored">Request a Tailored Bag</label>
+                            <textarea name="tailored" id="tailored" rows="5"></textarea>
+                        </div>
+                    </div>
+
+                </fieldset>
+                <fieldset>
+                    <div class="form-group">
+                        <input type="submit" value="Submit">
+                    </div>
+                </fieldset>
+            </form>
         </div>
-        <div>
-            <img src="assets/images/arno-senoner-salmon-bag-unsplash.jpg" alt="Bag of salmon colour" width="250" />
-            <h3>Salmon Pink Bag</h3>
-            <p>€45.00</p>
-        </div>
-        <div>
-            <img src="assets/images/arno-senoner-yellow-bag-unsplash.jpg" alt="Bag of yellow colour" width="250" />
-            <h3>Yellow Sunny Bag</h3>
-            <p>€40.00</p>
-        </div>
-    </div>
+    </section>
 
     <!--Footer section -->
     <footer>
