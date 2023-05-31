@@ -108,3 +108,59 @@ footer>a {
 footer>a:hover {
     color: azure;
 }
+
+
+/*Form Section */
+
+
+.form-container {
+    width: 500px;
+    background-color: white;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    resize: none;
+}
+
+.form-group input[type="submit"] {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
