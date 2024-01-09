@@ -5,6 +5,8 @@ Welcome to Touch Bags! Your one-stop destination for stylish bags and accessorie
 ## Overview
 Touch Bags is a virtual storefront that aims to provide a pleasant shopping experience for anyone seeking high-quality bags and accessories. The website is designed to showcase our diverse product range while allowing users to easily navigate through different sections and place orders. Whether you're looking for the perfect bag or stylish accessories, Touch Bags has you covered.
 
+![Screenshot of a touchbags website over multiple devices.](assets/images/touch_bags_mockup.jpg)
+
 ## Features
 
 ### Navigation
@@ -27,6 +29,7 @@ Every page includes a footer section with contact information. This allows users
 
 ## Testing
 I have tested the Touch Bags website to ensure its functionality and responsiveness.
+From Google Chrome, Microsoft Edge and Firefox I tested the website to ensure consistency accross multiple browsers. Furtherefmore, I tested using developer tools ensuring its structure was acceptable on multiple devices. The same test was performed on https://responsivedesignchecker.com/. 
 
 ### Validator Testing
 HTML: The website successfully passed through the official W3C validator without errors.
