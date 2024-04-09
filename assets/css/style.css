@@ -194,3 +194,35 @@ footer>a:hover {
 .product-column img {
     width: 100%;
 }
+
+
+/* Media Query for mobile phones / dimentions based on iphone 13 and Samsung 22  */
+@media (max-width: 600px) {
+
+    /* navigation bar section */
+    .navigation-bar {
+        padding: 5px 15px; 
+    }
+    
+    /* Header section*/
+    .header {
+        flex-direction: column;
+        margin-top: 60px; 
+    }
+    
+    .header-image, .header-content {
+        width: 85%; 
+        margin-bottom: 20px; 
+    }
+    
+    .gallery-item {
+        width: 100%; 
+    }
+    
+    .product-column {
+        width: 45%; 
+    }
+    
+}
+
+
