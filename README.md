@@ -36,7 +36,7 @@ HTML: The website successfully passed through the official W3C validator without
 CSS: The CSS code was validated using the official (Jigsaw) validator and was found to be error-free.
 
 # Known Bugs
-I am aware of a minor bug in the header section of the main page, which doesn't display optimally on small screens. 
+Minor bug in the navigation section, which doesn't display optimally on small screens. 
 
 
 ## Deployment
